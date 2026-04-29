@@ -6,5 +6,5 @@
 | **Saswataduity Bhuin** | [Saswataduity](https://dva-portfolio-site.vercel.app/)  |
 | **Akshay Y** | |
 | **Narendra Singh** | [Narendra singh](https://cool-biscuit-871241.netlify.app/)|
-| **Sayan Bhattacharya** |   |
+| **Sayan Bhattacharya** | [Sayan](https://sayan-data2.vercel.app/)  |
 | **Vedant Madne** |  |
