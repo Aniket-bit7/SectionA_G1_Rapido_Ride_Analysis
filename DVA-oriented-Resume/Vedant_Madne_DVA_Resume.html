@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vedant Madne — DVA Resume</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'EB Garamond', 'Georgia', serif;
+      font-size: 11pt;
+      line-height: 1.5;
+      color: #111;
+      background: #fff;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 52px 48px;
+    }
+
+    /* ── HEADER ── */
+    .header { text-align: center; margin-bottom: 18px; }
+
+    .name {
+      font-size: 28pt;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .contact {
+      font-size: 10.5pt;
+      color: #222;
+      line-height: 1.8;
+    }
+
+    .contact a {
+      color: #1a1aaa;
+      text-decoration: none;
+    }
+
+    .contact a:hover { text-decoration: underline; }
+
+    .sep { margin: 0 6px; color: #555; }
+
+    /* ── SECTION ── */
+    .section { margin-top: 18px; }
+
+    .section-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      border-bottom: 1.5px solid #111;
+      padding-bottom: 3px;
+      margin-bottom: 10px;
+    }
+
+    /* ── SUMMARY ── */
+    .summary-text {
+      font-size: 11pt;
+      text-align: justify;
+      color: #111;
+      line-height: 1.6;
+    }
+
+    /* ── SKILLS TABLE ── */
+    .skills-table { width: 100%; border-collapse: collapse; }
+    .skills-table td {
+      padding: 2px 0;
+      vertical-align: top;
+      font-size: 10.5pt;
+      line-height: 1.55;
+    }
+    .skills-table td:first-child {
+      font-weight: 700;
+      white-space: nowrap;
+      padding-right: 12px;
+      width: 200px;
+    }
+
+    /* ── PROJECTS ── */
+    .project { margin-bottom: 14px; }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .project-title {
+      font-size: 11.5pt;
+      font-weight: 700;
+    }
+
+    .project-link {
+      font-size: 10pt;
+      color: #1a1aaa;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .project-link:hover { text-decoration: underline; }
+
+    .project-stack {
+      font-style: italic;
+      font-size: 10pt;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .project ul {
+      padding-left: 18px;
+      font-size: 10.5pt;
+    }
+
+    .project ul li {
+      margin-bottom: 3px;
+      line-height: 1.55;
+      text-align: justify;
+    }
+
+    /* ── EDUCATION ── */
+    .edu-entry {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .edu-left { }
+    .edu-degree { font-size: 11.5pt; font-weight: 700; }
+    .edu-school { font-size: 10.5pt; color: #222; margin-top: 1px; }
+    .edu-gpa    { font-size: 10.5pt; margin-top: 1px; }
+    .edu-date   { font-size: 10.5pt; font-style: italic; white-space: nowrap; }
+
+    /* ── PRINT ── */
+    @media print {
+      body { padding: 36px 40px; font-size: 10.5pt; }
+      .name { font-size: 24pt; }
+      @page { margin: 0; size: A4; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="name">Vedant Madne</div>
+  <div class="contact">
+    Pune, Maharashtra
+    <span class="sep">|</span>
+    <a href="mailto:nst.b2b.marketing@gmail.com">nst.b2b.marketing@gmail.com</a>
+    <br/>
+    <a href="https://www.linkedin.com/in/vedant-madne" target="_blank">LinkedIn</a>
+    <span class="sep">|</span>
+    <a href="https://github.com/vedant-valid" target="_blank">GitHub</a>
+    <span class="sep">|</span>
+    <a href="https://portfolio-vedant-navy.vercel.app" target="_blank">Portfolio</a>
+  </div>
+</div>
+
+<!-- SUMMARY -->
+<div class="section">
+  <div class="section-title">Summary</div>
+  <p class="summary-text">
+    Detail-oriented and analytically driven Data &amp; Visualization Analytics student with hands-on
+    experience in data cleaning, exploratory data analysis, statistical modeling, and data visualization.
+    Proficient in Python, SQL, and Excel with a strong foundation in machine learning, ETL pipelines,
+    and dashboard creation using Tableau. Experienced in building agentic AI systems with LangGraph and
+    RAG architectures. Passionate about transforming raw datasets into actionable business insights and
+    delivering end-to-end data solutions. Eager to apply analytical skills and technical expertise to
+    solve real-world problems in a collaborative, fast-paced environment.
+  </p>
+</div>
+
+<!-- TECHNICAL SKILLS -->
+<div class="section">
+  <div class="section-title">Technical Skills</div>
+  <table class="skills-table">
+    <tr>
+      <td><strong>Programming Languages:</strong></td>
+      <td>Python, SQL, HTML/CSS</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analysis &amp; ML:</strong></td>
+      <td>Pandas, NumPy, SciPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, Plotly</td>
+    </tr>
+    <tr>
+      <td><strong>AI &amp; Agentic Systems:</strong></td>
+      <td>LangGraph, RAG (TF-IDF), LLM Prompting, Qwen-2.5-72B</td>
+    </tr>
+    <tr>
+      <td><strong>Visualization Tools:</strong></td>
+      <td>Tableau, Excel (Pivot Tables), Matplotlib, Seaborn</td>
+    </tr>
+    <tr>
+      <td><strong>Tools &amp; Platforms:</strong></td>
+      <td>Git, GitHub, Jupyter Notebook, VS Code, Streamlit, Google Colab</td>
+    </tr>
+    <tr>
+      <td><strong>Other:</strong></td>
+      <td>ETL Pipelines, Feature Engineering, EDA, Hypothesis Testing, Chi-Squared, Statistical Analysis</td>
+    </tr>
+  </table>
+</div>
+
+<!-- PROJECTS -->
+<div class="section">
+  <div class="section-title">Projects</div>
+
+  <!-- PROJECT 1 -->
+  <div class="project">
+    <div class="project-header">
+      <span class="project-title">Rapido Ride Analysis — Demand, Cancellations &amp; Revenue</span>
+      <a class="project-link" href="https://github.com/vedant-valid/SectionA_G1_Rapido_Ride_Analysis" target="_blank">GitHub ↗</a>
+    </div>
+    <div class="project-stack">Python, Pandas, NumPy, Tableau, Chi-Squared, Z-Score, ETL Pipeline</div>
+    <ul>
+      <li>
+        Analyzed 49,801 Rapido ride transactions across Bangalore to investigate cancellation drivers and
+        revenue leakage, engineering 17 domain-specific features from raw booking and timestamp data.
+      </li>
+      <li>
+        Performed end-to-end ETL — standardized zone labels, imputed missing coordinates using modal
+        area mapping, removed duplicates, and filtered invalid records to produce a zero-null analysis-ready
+        dataset of 49,801 rows across 24 columns.
+      </li>
+      <li>
+        Applied Chi-squared hypothesis testing and Z-score outlier detection to identify a statistically
+        significant <strong>Demand Paradox</strong> — high-demand zones (Electronic City, Whitefield) experienced
+        the worst driver availability, directly driving a 10.4% cancellation rate.
+      </li>
+      <li>
+        Quantified ₹1.44M in annual revenue recovery potential and built interactive Tableau dashboards
+        for zone-level demand heatmaps, cancellation funnel analysis, and peak-hour ride flow.
+      </li>
+    </ul>
+  </div>
+
+  <!-- PROJECT 2 -->
+  <div class="project">
+    <div class="project-header">
+      <span class="project-title">Stack Overflow Developer Survey 2025 — Workforce Intelligence Framework</span>
+      <a class="project-link" href="https://github.com/vedant-valid" target="_blank">GitHub ↗</a>
+    </div>
+    <div class="project-stack">Excel, Pivot Tables, Tableau, Segmentation Analysis, KPI Framework Design</div>
+    <ul>
+      <li>
+        Built a workforce intelligence framework targeting CHROs and CTOs using 14,450 cleaned developer
+        records across 50+ countries, engineering 57 features for talent segmentation and compensation analysis.
+      </li>
+      <li>
+        Performed multi-layer data cleaning — removed incomplete salary responses, standardized country and
+        role classifications, and resolved encoding inconsistencies across a 90-column survey dataset.
+      </li>
+      <li>
+        Segmented the global developer talent pool into 4 archetypes (AI-Native, Traditional, Hybrid,
+        Emerging) using pivot-based clustering across AI tool adoption, compensation, and experience axes.
+      </li>
+      <li>
+        Identified an 82% compensation premium linked to AI skill depth over tenure — directly informing
+        hiring and compensation strategy recommendations delivered via a Tableau executive dashboard.
+      </li>
+    </ul>
+  </div>
+
+  <!-- PROJECT 3 -->
+  <div class="project">
+    <div class="project-header">
+      <span class="project-title">Property Price Estimator + AI Investment Advisor</span>
+      <a class="project-link" href="https://github.com/vedant-valid/house-price-prediction-ml" target="_blank">GitHub ↗</a>
+    </div>
+    <div class="project-stack">Python, Pandas, Scikit-learn, XGBoost, LangGraph, RAG, TF-IDF, Streamlit, LLM</div>
+    <ul>
+      <li>
+        Designed a two-milestone ML system on 4,458 Washington State housing transactions: Milestone 1
+        auto-benchmarked five regression models (Linear, Ridge, Lasso, Random Forest, XGBoost), selecting
+        Linear Regression at R² = 0.80 as the production model.
+      </li>
+      <li>
+        Built a LangGraph agentic pipeline (Milestone 2) that retrieves comparable market context via
+        TF-IDF RAG retrieval over the housing corpus and generates structured <strong>BUY / HOLD / AVOID</strong>
+        investment recommendations using Qwen-2.5-72B with chain-of-thought reasoning.
+      </li>
+      <li>
+        Shipped a live Streamlit application allowing real-time price prediction and AI-powered investment
+        advisory with user-facing confidence intervals and market context summaries.
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- EDUCATION -->
+<div class="section">
+  <div class="section-title">Education</div>
+  <div class="edu-entry">
+    <div class="edu-left">
+      <div class="edu-degree">Bachelor of Technology (B.Tech) — Data &amp; Visualization Analytics</div>
+      <div class="edu-school">Newton School of Technology, Rishihood University, Sonipat, Haryana</div>
+    </div>
+    <div class="edu-date">2024 – 2028</div>
+  </div>
+</div>
+
+</body>
+</html>
