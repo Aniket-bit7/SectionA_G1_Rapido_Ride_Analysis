@@ -7,4 +7,4 @@
 | **Akshay Y** | | [Akshay Y](https://akshay-data-portfolio.vercel.app/)|
 | **Narendra Singh** | [Narendra singh](https://cool-biscuit-871241.netlify.app/)|
 | **Sayan Bhattacharya** | [Sayan](https://sayan-data2.vercel.app/)  |
-| **Vedant Madne** |  |
+| **Vedant Madne** |  | https://portfolio-vedant-r60bqffe3-vedant-madnes-projects.vercel.app/
